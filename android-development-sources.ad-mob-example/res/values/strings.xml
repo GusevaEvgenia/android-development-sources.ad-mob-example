@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AdMobExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string-array name="planets">
+        <item >Mercury</item>
+        <item >Venus</item>
+        <item >Earth</item>
+        <item >Mars</item>
+        <item >Jupiter</item>
+        <item >Saturn</item>
+        <item >Uranus</item>
+        <item >Neptune</item>
+        <item >Magna Roma</item>
+        <item >Gaia</item>
+        <item >Hottar</item>
+        <item >Iconia</item>
+        <item >Karemma</item>
+        <item >Laurentian system</item>
+    </string-array>
+
+</resources>

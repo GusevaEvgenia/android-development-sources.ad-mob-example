@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    <ListView android:id="@+id/lvPlanets" 
+        android:layout_weight="1"
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent"
+        android:entries="@array/planets" />
+    
+    
+    
+    <com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center_horizontal|bottom"
+                         android:minHeight="60dp"
+                         ads:adUnitId="a1517f4930cd4c5"
+                         ads:adSize="BANNER"
+                         ads:testDevices="TEST_EMULATOR, 8A30188902572F5D008C14012A2F1454"
+                         ads:loadAdOnCreate="true"/>
+    
+    <LinearLayout android:id="@+id/container"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:minHeight="60dp"
+        android:orientation="vertical" />
+    
+
+</LinearLayout>
